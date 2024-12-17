@@ -24,9 +24,9 @@ const Footer = () => {
         <div className='md:w-1/3 pt-[60px] md:pt-[100px] text-white font-bold med'>
            <h1 > &copy; 2024 TRK ADVOCATE'S. ALL RIGHT RESERVED</h1>
            <ul className='flex justify-center gap-2 '>
-            <li><a href='https://www.instagram.com/mahi_tvk_prathap_7?igsh=cW00cGMxdTl6ZjM2s'><FaSquareInstagram/></a></li>
-            <li><a href=''><FaSquareXTwitter/></a></li>
-            <li><a href='https://www.facebook.com/kd.don.568?mibextid=ZbWKwL'><FaSquareFacebook/></a></li>
+            <li className='text-rose-600'><a href='https://www.instagram.com/mahi_tvk_prathap_7?igsh=cW00cGMxdTl6ZjM2s'><FaSquareInstagram/></a></li>
+            <li className='text-gray-600'><a href=''><FaSquareXTwitter/></a></li>
+            <li className='text-blue-500'><a href='https://www.facebook.com/kd.don.568?mibextid=ZbWKwL'><FaSquareFacebook/></a></li>
            
            </ul>
 
