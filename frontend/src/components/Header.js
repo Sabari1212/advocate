@@ -63,7 +63,7 @@ const Header = () => {
          
 
         </div>
-        <button className='block md:hidden  font-bold text-4xl mb-3 text-red-500' onClick={()=>setMenu(!menu)}><IoMenu/></button>
+        <button className='block md:hidden  font-bold text-4xl mb-3 text-white' onClick={()=>setMenu(!menu)}><IoMenu/></button>
          {menu && <nav className=' block md:hidden fixed top-[140px] left-0 bg-gray-800 pt-3 w-full head'>
             <ul onClick={()=>setMenu(!menu)} className='flex flex-col gap-2 font-bold menu'>
                 <li><a href='#home'>Home</a></li>
