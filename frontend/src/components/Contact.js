@@ -58,7 +58,7 @@ const Contact = () => {
                 <input type='number' name='Mobile_No'  value={data.Mobile_No} onChange={(e)=>handleInput(e)}></input>
                 <label className='text-start  text-xl'>Message:</label>
                 <textarea rows={4} cols={50} name='Message' value={data.Message} onChange={(e)=>handleInput(e)}></textarea>
-                <button type='submit' className=' rounded-md bg-blue-600 ml-28 md:ml-36 text-center text-white px-2 w-[100px] py-1 mt-2 md:mt-0 hover:cursor-pointer hover:bg-green-600 hover:duration-500 hover:scale-110 ' >Submit</button>
+                <button type='submit' className=' rounded-md bg-blue-600 ml-32 md:ml-36 text-center text-white px-2 w-[100px] py-1 mt-2 md:mt-0 hover:cursor-pointer hover:bg-green-600 hover:duration-500 hover:scale-110 ' >Submit</button>
                 
             </form>
         </div>
