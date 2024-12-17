@@ -42,7 +42,7 @@ const Contact = () => {
     
     
   return (
-    <section id='contact' className='flex flex-col h-[80vh] p-5 md:p-0 bg-gray-300  gap-3 justify-center  '>
+    <section id='contact' className='flex flex-col h-[80vh] p-5 md:p-0 bg-gray-300  gap-3 justify-center  ' style={{backgroundImage:`url(${contact_bg})`,opacity:0.8,backgroundSize:'cover',backgroundPosition:'center'}}>
 
         <div >
             <h1 className='text-2xl md:text-4xl font-bold text-black md:p-5 text-start md:pl-52 pt-10'>Contact Us</h1>
