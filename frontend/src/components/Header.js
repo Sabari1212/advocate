@@ -50,7 +50,7 @@ const Header = () => {
 
         </div>
         <div className=' font-bold text-xl md:ml-[500px] '>
-            <button onClick={()=>setLogin(!login)} className='mt-8  bg-green-500 md:h-[45px] md:w-[85px]  rounded-md hover:bg-red-500 hover:scale-110 cursor-pointer hover:duration-500'>ADMIN</button>
+            <button onClick={()=>setLogin(!login)} className='mt-8  bg-red-500 md:h-[45px] md:w-[85px]  rounded-md hover:bg-red-600 hover:scale-110 cursor-pointer hover:duration-500'>ADMIN</button>
         </div>
         <div className='hidden md:block head'>
             <ul className='flex gap-5 mt-8 font-bold text-xl '>
