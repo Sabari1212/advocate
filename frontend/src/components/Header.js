@@ -78,7 +78,7 @@ const Header = () => {
         </nav>
         
 }
-  {login && <div className='fixed left-[60px] md:left-[600px] top-[300px] md:top-[300px] text-black '>
+  {login && <div className='fixed left-[40px] md:left-[600px] top-[300px] md:top-[300px] text-black '>
             <form onSubmit={handleSubmit} className='flex flex-col bg-slate-800 p-10 md:w-[400px] gap-3'>
                 <h1 className='text-white text-2xl font-bold'>Admin Login</h1>
                 <label  className='text-left text-white'>UserName</label>
