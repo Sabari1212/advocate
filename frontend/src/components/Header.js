@@ -86,7 +86,7 @@ const Header = () => {
                 <label className='text-left text-white'>PassWord</label>
                 <input type='password' name='password' value={password} onChange={(e) => setPw(e.target.value)}></input>
                 
-                <button className='bg-blue-500 w-[100px] ml-[40px] md:ml-[100px] mt-5 rounded-md hover:bg-green-600 hover:scale-110 duration-500' type='submit'>Login</button>
+                <button className='bg-blue-500 w-[100px] ml-[55px] md:ml-[100px] mt-5 rounded-md hover:bg-green-600 hover:scale-110 duration-500' type='submit'>Login</button>
 
                 
                
