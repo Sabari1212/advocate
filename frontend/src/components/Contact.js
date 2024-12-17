@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { createUser } from './UsersCon'
+import contact_bg from '../assets/contact_bg.png'
 
 const Contact = () => {
   const [data,setData]=useState({
@@ -42,7 +43,7 @@ const Contact = () => {
     
     
   return (
-    <section id='contact' className='flex flex-col h-[80vh] p-5 md:p-0 bg-gray-300  gap-3 justify-center  ' style={{backgroundImage:`url(${contact_bg})`,opacity:0.8,backgroundSize:'cover',backgroundPosition:'center'}}>
+    <section id='contact' className='flex flex-col h-[80vh] p-5 md:p-0   gap-3 justify-center  ' style={{backgroundImage:`url(${contact_bg})`,opacity:0.8,backgroundSize:'cover',backgroundPosition:'center'}}>
 
         <div >
             <h1 className='text-2xl md:text-4xl font-bold text-black md:p-5 text-start md:pl-52 pt-10'>Contact Us</h1>
@@ -50,15 +51,15 @@ const Contact = () => {
         </div>
         <div  className='md:pl-[600px] pb-5'>
             <form onSubmit={handleSubmit} className='flex flex-col md:w-[400px] gap-2'>
-                <lablel className='text-start  text-xl'>Name:</lablel>
+                <lablel className='text-start text-xl font-bold'>Name:</lablel>
                 <input type='text' name='Name' value={data.Name} onChange={(e)=>handleInput(e)}></input>
-                <label className='text-start  text-xl'>Email:</label>
+                <label className='text-start  text-xl font-bold'>Email:</label>
                 <input type='email' name='Email' value={data.Email} onChange={(e)=>handleInput(e)}></input>
-                <label className='text-start  text-xl'>Mobile No:</label>
+                <label className='text-start  text-xl font-bold'>Mobile No:</label>
                 <input type='number' name='Mobile_No'  value={data.Mobile_No} onChange={(e)=>handleInput(e)}></input>
-                <label className='text-start  text-xl'>Message:</label>
+                <label className='text-start  text-xl font-bold'>Message:</label>
                 <textarea rows={4} cols={50} name='Message' value={data.Message} onChange={(e)=>handleInput(e)}></textarea>
-                <button type='submit' className=' rounded-md bg-green-500 ml-32 md:ml-36 text-center text-white px-2 w-[100px] py-1 mt-2 md:mt-0 hover:cursor-pointer hover:bg-green-600 hover:duration-500 hover:scale-110 ' >Submit</button>
+                <button type='submit' className=' rounded-md bg-blue-600 ml-32 md:ml-36 text-center text-white px-2 w-[100px] py-1 mt-2 md:mt-0 hover:cursor-pointer hover:bg-green-600 hover:duration-500 hover:scale-110 ' >Submit</button>
                 
             </form>
         </div>
