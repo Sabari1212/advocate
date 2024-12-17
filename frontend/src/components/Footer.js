@@ -10,14 +10,15 @@ const Footer = () => {
         <div className='md:w-1/3 text-white font-bold '>
             <ul className=' text-center md:text-start'>
                 <li>M.Saravanan, M.B.A.,LL.B</li>
-                <li>D.K.Bharathkumar , B.Sc.,LL.B</li>
-                <li>B.Sree Preethi, B.Sc., LL.B</li>
-                <li>M.Manoj,B.C.A.,LL.B</li>
-                <li>T.Thasitha, B.Sc.,LL.B</li>
-                <li>D.K.Bharathkumar , B.Sc.,LL.B</li>
-                <li>R.Ranjitha,B.A.,LL.B</li>
-                <li>K.Gowziya Begam, B.Sc., LL.B</li>
                 <li>D.MahendraVarman,B.E.,LL.B</li>
+                <li>M.Manoj,B.C.A.,LL.B</li>
+                <li>B.Sree Preethi, B.Sc., LL.B</li>
+                <li>D.K.Bharathkumar , B.Sc.,LL.B</li>
+                 <li>V.Vignesh Kumar , B.Sc.,LL.B</li>
+                 <li>T.Thasitha, B.Sc.,LL.B</li>
+                <li>R.Ranjitha,B.A.,LL.B</li>
+                 <li>K.Gowziya Begam, B.Sc., LL.B</li>
+               
             </ul>
 
         </div>
@@ -31,12 +32,12 @@ const Footer = () => {
            </ul>
 
         </div>
-        <div className='md:w-1/3 text-white font-bold mt-10 text-center md:pl-52'>
+        <div className='md:w-1/3 text-white font-bold mt-10 text-center md:pl-48'>
             <p>
-                D.MahendraVarman,B.E.,LL.B,<br></br>
-                Vettavalam Main Road,<br></br>
-                T.Devanur, Villupuram(DT)<br></br>
-                pincode-605752
+                D.MahendraVarman,B.E.,LL.B.,PRESIDENT<br></br>
+                1/40,Vettavalam Main Road,<br></br>
+                T.Devanur(PT), Kandachipuram(TK), Villupuram(DT)<br></br>
+                CELL:8012374744/8012243711, Pincode-605752. 
             </p>
 
         </div>
