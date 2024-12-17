@@ -46,7 +46,7 @@ const Header = () => {
     <header className='flex flex-row justify-between md:px-5 bg-black text-white py-5'>
         <div className='flex flex-row  '>
             <img className='h-[100px] w-[100px]' src={logo}></img>
-            <h1 className='text-2xl md:text-4xl font-bold mt-7 '>TRK ADVOCATE'S</h1>
+            <h1 className='text-3xl md:text-4xl font-bold mt-4 md:mt-7  '>TRK ADVOCATE'S</h1>
 
         </div>
         <div className=' font-bold text-xl md:ml-[500px] '>
