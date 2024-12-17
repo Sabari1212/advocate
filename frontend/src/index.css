@@ -4,13 +4,13 @@
 
  .menu li{
 
-@apply border-b-2 border-white h-full w-full text-center  hover:text-green-600 scale-110 cursor-pointer duration-500 
+@apply border-b-2 border-white h-full w-full text-center  hover:text-red-500 scale-110 cursor-pointer duration-500 
 
 
 }
 .head ul :hover{
 
-@apply hover:text-green-600 scale-110 cursor-pointer duration-500
+@apply hover:text-red-500 scale-110 cursor-pointer duration-500
 
 }
 .med ul li{
