@@ -50,7 +50,7 @@ const Table = () => {
   return (
     <>
     <div className='flex  p-10 bg-black justify-between'>
-    <h1 className='text-white text-xl md:text-4xl font-bold  '>CLIENT DETAILS</h1>
+    <h1 className='text-white text-xl md:text-4xl font-bold  '><span className='text-red-500'>CLIENT</span> DETAILS</h1>
     <button onClick={handleClick} className=' rounded-md bg-red-500 p-1 md:p-3 text-white font-bold hover:scale-110 duration-500'>LogOut</button>
 
     </div>
