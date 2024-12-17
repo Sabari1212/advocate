@@ -1,5 +1,5 @@
 const model = require("../Model/userLogin")
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcryptjs')
 
 
 exports.getAdmin = async (req, res) => {
