@@ -78,7 +78,7 @@ const Header = () => {
         </nav>
         
 }
-  {login && <div className='fixed left-[40px] md:left-[600px] top-[300px] md:top-[300px] text-black '>
+  {login && <div className='fixed left-[48px] md:left-[600px] top-[300px] md:top-[300px] text-black '>
             <form onSubmit={handleSubmit} className='flex flex-col bg-slate-800 p-10 md:w-[400px] gap-3'>
                 <h1 className='text-white text-2xl font-bold'>Admin Login</h1>
                 <label  className='text-left text-white'>UserName</label>
@@ -86,7 +86,7 @@ const Header = () => {
                 <label className='text-left text-white'>PassWord</label>
                 <input type='password' name='password' value={password} onChange={(e) => setPw(e.target.value)}></input>
                 
-                <button className='bg-blue-500 w-[100px] ml-[40px] md:ml-[100px] mt-5 rounded-md hover:bg-green-600 hover:scale-110 duration-500' type='submit'>Login</button>
+                <button className='bg-blue-500 w-[100px] ml-[55px] md:ml-[100px] mt-5 rounded-md hover:bg-green-600 hover:scale-110 duration-500' type='submit'>Login</button>
 
                 
                
