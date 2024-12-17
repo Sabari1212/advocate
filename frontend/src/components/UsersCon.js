@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url="http://localhost:5000/api"
+const url="https://advocate-1.onrender.com/api"
 
 
 const createUser=(data)=>{
