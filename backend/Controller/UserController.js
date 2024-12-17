@@ -21,7 +21,7 @@ exports.CreateUser = async (req, res) => {
 
         const compose = {
             from: "advocatestrk@gmail.com",
-            to: "sabari9750371420@gmail.com,prosbari6@gmail.com",
+            to: "kd.don707@gmail.com,prosbari6@gmail.com,trkadvocates@gmail.com",
             subject: "One Client Sent Message",
             text: `Name:${data.Name}\nEmail:${data.Email}\n Mobile-No:${data.Mobile_No}\n Message:${data.Message}`
         };
@@ -29,7 +29,7 @@ exports.CreateUser = async (req, res) => {
             from: "advocatestrk@gmail.com",
             to: data.Email,
             subject: "Respond Message from Trk Advocate'S",
-            text: `Thaning You For Contact Us.\n We Will Contact You Soon`
+            text: `Thanking You For Contact Us.\n We Will Contact You Soon`
         };
 
         sender.sendMail(compose, (err, info) => {
